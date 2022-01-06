@@ -102,7 +102,7 @@ int main()
 
     while (1) {
 
-        cout << "click f - for typing file path or click m - for typing graph manually, e - for exit, (ent for confirmation): "; //"clear" input
+        cout << "click f - for getting graph from in_file or click m - for typing graph manually, e - for exit, (ent for confirmation): "; //"clear" input
         cin >> choice;
         cin.seekg(1, std::ios::end);
         cin.clear();
